@@ -1,0 +1,190 @@
+
+.container {
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    min-width: 1200px;
+    flex-grow: 0;
+  }
+   .container > div {
+    width: 600px;
+    padding: 0px;
+  }
+  .omit{
+    box-shadow: unset;
+  }
+  img{
+    height: 200px;
+  }
+  .Product{
+    text-align: left;
+    margin: 0px;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  footer{
+    margin-top: 20px;
+  }
+  .sec{
+    -webkit-text-fill-color: yellow;
+    font-weight: bold;
+    background-color: darkgray; 
+  }
+  p{
+    text-align: justify;
+    padding: 15px;
+    min-height: 100px;
+  }
+  .card{
+    margin: 15px;
+    border: 1px solid gainsboro;
+    box-shadow: 1px 2px 2px 1px;
+  }
+  .title{
+    border-bottom: 5px dotted darkblue;
+}
+  .body{
+    background-color: slateblue;
+}
+  /* h4{
+  text-align: left;
+  line-height: 1px;
+} */
+  h5{
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+  }
+  footer{
+    font-size: 13px;
+}
+#siteName{
+  font-size: 100px;
+  text-align: center;
+  font-style: italic;
+  -webkit-text-fill-color: darkblue;
+}
+li{
+  text-align: left;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+     display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+     -webkit-flex-flow: row wrap;
+    justify-content: space-around; 
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+
+.card {
+    background: lightblue;
+    width: 33%;
+    margin-top: 10px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.card header h1{
+    padding: 0;
+    margin: 0;
+    line-height:1em;
+    font-size:2em;
+
+}
+.Card-element P{
+    padding: 1;
+    margin: 1;
+    line-height: 1em;
+    font-size:1px; */
+
+
+/* }
+header{
+    border: 1px solid black;
+   display: flexbox;
+    flex-direction: row;
+}
+
+ p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: normal;
+}
+.images img{
+    align-content: center;
+    max-width: 150%;
+    padding: 2%;
+    padding-left: 17%;
+    flex-grow: 2;
+    flex-basis: 18%;
+} 
+
+.product_specification>p{
+    margin-left: 0;
+}
+
+.product_specification>h1{
+    margin-left: 1%;
+} 
+
+ header>h3{
+    background-color:yellowgreen;}
+header>h1{
+    text-align: center;
+}
+.child-element>p{
+    padding: 0;
+}
+.pricing>p{
+    margin-left: 1%;
+}
+.pricing>h1{
+    margin-left: 1%;
+} 
+.class:price{
+    text-align: center
+    font-size: 1em
+
+
+} ; */
+
+
+
+
+               
+  
+    
+   
+
+        
