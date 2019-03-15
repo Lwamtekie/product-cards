@@ -1,1 +1,1 @@
-# product_cards
+Product-Cards with index.html and main.css. There are six products in the container with Div Id and class. And in the main.css used the flex-box to arrange the product. Every detail of the product is in the index.html and the styling and color is in the main.css. 
