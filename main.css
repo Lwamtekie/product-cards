@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    min-width: 1200px;
+     flex-grow: 0;
+      justify-content: center;
+      
+
+  }
+   .card  {
+    width: 400px;
+    padding: 2px;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+     margin: 15px;
+     border: 1px solid palevioletred;
+    box-shadow: 1px 2px 2px 1px;
+      
+    }
+     
+    .omit{
+    box-shadow: unset;
+  }
+  img{
+    height: 200px;
+    margin-top: 3px;
+    justify-content: center;
+  }
+  .Product{
+    text-align: left;
+    margin: 0px;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  footer{
+    margin-top: 20px;
+  }
+  .sec{
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+    background-color: yellowgreen; 
+  }
+  p{
+    text-align: justify;
+    padding: 15px;
+    min-height: 100px;
+    font-size: 14px;
+    margin-top: 1px;
+  }
+  
+  .title{
+    border-bottom: 5px dotted darkolivegreen;
+}
+  .body{
+    background-color: pink;
+}
+ 
+  h5{
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    font-size: 16px;
+  }
+  footer{
+    font-size: 14px;
+}
+#siteName{
+  font-size: 100px;
+  text-align: center;
+  font-style: italic;
+  -webkit-text-fill-color: black;
+}
+li{
+  text-align: left;
+  font-style: normal;
+  white-space: nowrap;
+}
