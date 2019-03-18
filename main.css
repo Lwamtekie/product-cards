@@ -1,79 +1,83 @@
 .container {
     display: flex;
     text-align: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     min-width: 1200px;
-     flex-grow: 0;
-      justify-content: center;
-      
-
-  }
-   .card  {
-    width: 400px;
-    padding: 2px;
+    flex-grow: 0;
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
-     margin: 15px;
-     border: 1px solid palevioletred;
+   
+  }
+  .card{
+    margin: 15px;
+    border: 1px solid BLACK;
     box-shadow: 1px 2px 2px 1px;
-      
-    }
-     
-    .omit{
+    width: 400px;
+    padding: 0px;
+    -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+ 
+  }
+  .omit{
     box-shadow: unset;
   }
   img{
     height: 200px;
-    margin-top: 3px;
-    justify-content: center;
+    margin-top: 25px;
   }
-  .Product{
+.Produc{
     text-align: left;
     margin: 0px;
     font-size: 14px;
     margin-left: 5px;
-  }
+    margin-top: 15px;
+  } 
   footer{
     margin-top: 20px;
   }
   .sec{
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color: yellow;
     font-weight: bold;
-    background-color: yellowgreen; 
+    background-color: darkolivegreen; 
   }
   p{
     text-align: justify;
     padding: 15px;
     min-height: 100px;
-    font-size: 14px;
-    margin-top: 1px;
   }
   
+
   .title{
-    border-bottom: 5px dotted darkolivegreen;
+    border-bottom: 5px dotted BLACK;
 }
-  .body{
-    background-color: pink;
+  body{
+    background-color:SNOW;
 }
- 
+  
   h5{
+    font-size: 20px;
     text-align: center;
-    margin-top: 14px;
-    margin-bottom: 2px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     margin-left: 5px;
-    font-size: 16px;
+    align-content: center
+    
+    
+    
   }
   footer{
-    font-size: 14px;
+    font-size: 17px;
 }
 #siteName{
   font-size: 100px;
   text-align: center;
   font-style: italic;
-  -webkit-text-fill-color: black;
+  -webkit-text-fill-color: Black;
 }
 li{
-  text-align: left;
+  text-align: center;
   font-style: normal;
   white-space: nowrap;
 }
+
+
