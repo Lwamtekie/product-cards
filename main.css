@@ -6,7 +6,7 @@
     flex-grow: 0;
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
-   
+    
   }
   .card{
     margin: 15px;
@@ -15,22 +15,22 @@
     width: 400px;
     padding: 0px;
     -webkit-flex-flow: row wrap;
-  justify-content: space-around;
- 
-  }
-  .omit{
-    box-shadow: unset;
-  }
-  img{
+  justify-content: space-around
+}
+
+
+ img{
     height: 200px;
     margin-top: 25px;
+    
   }
 .Produc{
     text-align: left;
     margin: 0px;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 5px;
     margin-top: 15px;
+    font-display: solid 
   } 
   footer{
     margin-top: 20px;
@@ -45,15 +45,27 @@
     padding: 15px;
     min-height: 100px;
     margin-top: 10px;
+    text-decoration-color: black;
   }
   
 
   .title{
-    border-bottom: 5px dotted BLACK;
+    border-bottom: 5px solid BLACK;
 }
-  body{
-    background-color:SNOW;
-}
+  
+    body {
+    background-image: url("https://www.marinebio.net/marinescience/02ocean/swimg/wave7161.jpg");
+    background-position: center center ; 
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+
+    }
+  
+    
+
+
   
   h5{
     font-size: 20px;
