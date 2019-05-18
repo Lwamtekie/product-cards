@@ -1,6 +1,6 @@
 #TITLE:
-
  product-cards
+
 #TECHNOLOGIES USED:
 
  index.html, main.css
